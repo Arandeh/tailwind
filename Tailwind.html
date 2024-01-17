@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/src/output.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+</head>
+
+<body>
+    <section class=" bg-white shadow border-t-rose-700 border-2 ">
+        <div class="container mx-auto w-full max-w-[1320px] px-12">
+            <nav class="flex  justify-between flex-row py-4  ">
+                <div class=" font-bold text-2xl cursor-pointer">
+                    <a href="#">
+                        <h1 class="py-1.5 me-4 hover:text-blue-600">Start Bootstrap</h1>
+                       
+                    </a>
+                </div>
+                <div>
+                    <div class="flex ">
+                        <div class="hidden lg:flex flex-row text-xl ">
+                            <a href="#">
+                                <h3 class="p-2 me-4 hover:text-gray-400">Features</h3>
+                            </a>
+                            <a href="#">
+                                <h3 class="p-2 me-8 hover:text-gray-400">Download</h3>
+                            </a>
+                        </div>
+                        <button class="bg-blue-600 text-white w-42  rounded-full hidden lg:block">
+                            <span class="flex text-base px-6 ">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    strokeWidth={1.5} stroke="currentColor" className="w-6 h-6" class="w-5 h-5 me-2">
+                                    <path strokeLinecap="round" strokeLinejoin="round"
+                                        d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                                </svg>Send Feedback
+                            </span>
+                        </button>
+                        <button class="border-2 rounded-[8px] block lg:hidden py-2 ">
+                            <span class="flex text-sm px-4 content-stretch">
+                                <p class="my-auto">Menu</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                    stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ps-2">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                                </svg>
+
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+
+
+            </nav>
+
+        </div>
+    </section>
+    <section class="bg-slate-50 ">
+        <div
+            class=" bg-slate-50 h-full container mx-auto w-full max-w-[1320px] px-12 lg:flex flex-row lg:py-20 lg:colums-2 grid grid-flow-row md:auto-rows-fr">
+            <div class="text-center flex flex-col py-20 basis-1/2 lg:text-start md:pe-12">
+                <h2 class="text-5xl  md:text-6xl lg:text-7xl/[72px]">Showcase your app beautifully.</h2>
+                <p class="my-8 text-xl page  leading-8 text-gray-500">Launch your mobile app landing page faster with
+                    this free, open source theme from Start Bootstrap!
+                </p>
+                <div class=" text-center lg:flex ">
+                    <a href="#">
+                        <img class="w-48 mx-auto my-6 lg:my-6 lg:mx-4" src="./images/google-play-badge.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img class="w-48 mx-auto mb-12 lg:my-6" src="./images/app-store-badge.svg" alt="">
+                    </a>
+
+                </div>
+            </div>
+            <!-- <div class="px-14 relative pb-20 basis-1/2">
+                <div class="bg-gradient-to-r from-indigo-500 to-purple-700 w-96 h-96 rounded-full hidden md:block  mx-auto absolute  inset-0 top-16 ">
+    
+                </div>
+                <video class="w-36 mx-auto md:w-56  md:pb-2 absolute inset-0 rounded-3xl " src="./images/demo-screen.mp4"></video>
+                <img  class="w-40 mx-auto md:w-60  absolute inset-0"  src="./images/portrait_black.png" alt="">
+                
+    
+            </div> -->
+            <div class="basis-1/2 relative pb-12 md:pb-0">
+                <div
+                    class="bg-gradient-to-r from-indigo-500 to-purple-700   w-96 h-96 rounded-full hidden md:block mx-auto absolute inset-0 top-20">
+
+                </div>
+                <div class=" relative max-w-40 h-80 md:max-w-64 md:h-full  lg:max-w-64 lg:h-full mx-auto ">
+                    <video class=" rounded-3xl absolute  w-full h-full md:p-4 p-1 object-contain md:py-4 lg:py-3"
+                        src="./images/demo-screen.mp4"></video>
+                    <img class="  w-full  absolute h-full object-contain " src="./images/portrait_black.png" alt="">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class=" flex flex-row justify-center content-center bg-gradient-to-r from-indigo-500 to-purple-700">
+        <div class="flex flex-col justify-center content-center my-24 ">
+            <h3 class="lg:text-4xl/[42px] max-w-4xl text-white text-center pb-8 new md:text-3xl text-2xl ">"An intuitive
+                solution to a common problem that we all face, wrapped up in a single app!"</h3>
+            <img src="./images/tnw-logo.svg" alt="" class="w-32 mx-auto">
+        </div>
+    </section>
+
+
+    <section class="container mx-auto w-full max-w-[1320px] flex flex-col-reverse lg:flex-row columns-1 lg:colums-2 py-12">
+        <div class=" lg:basis-1/3 ">
+            <div class="grid lg:grid-rows-[120px_300px_120px] lg:grid-cols-[104px_196px_76px] justify-center md:grid-rows-[51px_374px_51px] md:grid-cols-[67px_240px_67px] mt-12  lg:mt-0  grid-rows-[318px] grid-cols-[160px]">
+                
+                    <div class="hidden md:block lg:row-start-2 lg:row-span-1 lg:col-start-1 lg:col-end-3 bg-gradient-to-r from-indigo-500 to-purple-700  rounded-full
+                            md:row-start-2 md:row-end-3 md:col-start-1 md:col-end-4  "></div>
+                    
+                    <div class=" lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-4 p-3 md:p-4 md:row-start-1 md:row-end-4 md:col-start-2 md:col-end-3 row-start-1 row-end-2 col-start-1 col-end-2" > <video class="rounded-3xl" src="./images/demo-screen.mp4"></video></div>
+                    <div class=" lg:row-start-1 lg:row-end-4 lg:col-start-2 lg:col-end-4  bg-cover bg-clip-padding bg-no-repeat md:row-start-1 md:row-end-4 md:col-start-2 md:col-end-3 row-start-1 row-end-2 col-start-1 col-span-1" style="background-image: url(./images/portrait_black.png); "></div>
+                
+            </div>
+
+            
+        </div>
+        <div class=" lg:basis-2/3 grid grid-cols-1 md:grid-cols-2 px-16 grid-flow-row gap-4 pt-12">
+            <div class=" ">
+                <div class="flax flex-col justify-between content-center text-center px-4 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="w-20 h-auto mx-auto text-blue-600/75 pb-5">
+                        <path d="M7.25 11.5a.75.75 0 0 0 0 1.5h1.5a.75.75 0 0 0 0-1.5h-1.5Z" />
+                        <path fill-rule="evenodd"
+                            d="M6 1a2.5 2.5 0 0 0-2.5 2.5v9A2.5 2.5 0 0 0 6 15h4a2.5 2.5 0 0 0 2.5-2.5v-9A2.5 2.5 0 0 0 10 1H6Zm4 1.5h-.5V3a.5.5 0 0 1-.5.5H7a.5.5 0 0 1-.5-.5v-.5H6a1 1 0 0 0-1 1v9a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1v-9a1 1 0 0 0-1-1Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <h4 class="text1 text-xl md:text-2xl lg:text-3xl ">Device Mockups</h4>
+                    <p class="text-gray-400  text-base md:text-lg lg:text-base pt-3">Ready to use HTML/CSS device mockups, no
+                        Photoshop required!</p>
+
+
+                </div>
+
+            </div>
+            <div class="">
+                <div class="flax flex-col justify-between content-center text-center px-4 ">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="w-20 h-auto mx-auto text-blue-600/75 pb-5">
+                        <path d="M9.5 8.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z" />
+                        <path fill-rule="evenodd"
+                            d="M2.5 5A1.5 1.5 0 0 0 1 6.5v5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5v-5A1.5 1.5 0 0 0 13.5 5h-.879a1.5 1.5 0 0 1-1.06-.44l-1.122-1.12A1.5 1.5 0 0 0 9.38 3H6.62a1.5 1.5 0 0 0-1.06.44L4.439 4.56A1.5 1.5 0 0 1 3.38 5H2.5ZM11 8.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                    <h4 class="text1 text-xl md:text-2xl lg:text-3xl">Flexible Use</h4>
+                    <p class="text-gray-400  text-base md:text-lg lg:text-base pt-3">Put an image, video, animation, or
+                        anything else in the screen!</p>
+
+
+                </div>
+
+            </div>
+            <div class="">
+                <div class="flax flex-col justify-between content-center text-center px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="w-20 h-auto mx-auto text-blue-600/75 pb-5">
+                        <path fill-rule="evenodd"
+                            d="M3.75 3.5c0 .563.186 1.082.5 1.5H2a1 1 0 0 0 0 2h5.25V5h1.5v2H14a1 1 0 1 0 0-2h-2.25A2.5 2.5 0 0 0 8 1.714 2.5 2.5 0 0 0 3.75 3.5Zm3.499 0v-.038A1 1 0 1 0 6.25 4.5h1l-.001-1Zm2.5-1a1 1 0 0 0-1 .962l.001.038v1h.999a1 1 0 0 0 0-2Z"
+                            clip-rule="evenodd" />
+                        <path d="M7.25 8.5H2V12a2 2 0 0 0 2 2h3.25V8.5ZM8.75 14V8.5H14V12a2 2 0 0 1-2 2H8.75Z" />
+                    </svg>
+
+                    <h4 class="text1 text-xl md:text-2xl lg:text-3xl">Device Mockups</h4>
+                    <p class="text-gray-400  text-base md:text-lg lg:text-base pt-3">As always, this theme is free to download
+                        and use for any purpose!</p>
+
+
+                </div>
+
+            </div>
+            <div class="">
+                <div class="flax flex-col justify-between content-center text-center px-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor"
+                        class="w-20 h-auto mx-auto text-blue-600/75 pb-5">
+                        <path fill-rule="evenodd"
+                            d="M8.5 1.709a.75.75 0 0 0-1 0 8.963 8.963 0 0 1-4.84 2.217.75.75 0 0 0-.654.72 10.499 10.499 0 0 0 5.647 9.672.75.75 0 0 0 .694-.001 10.499 10.499 0 0 0 5.647-9.672.75.75 0 0 0-.654-.719A8.963 8.963 0 0 1 8.5 1.71Zm2.34 5.504a.75.75 0 0 0-1.18-.926L7.394 9.17l-1.156-.99a.75.75 0 1 0-.976 1.138l1.75 1.5a.75.75 0 0 0 1.078-.106l2.75-3.5Z"
+                            clip-rule="evenodd" />
+                    </svg>
+
+                    <h4 class="text1 text-xl md:text-2xl lg:text-3xl">Open Source</h4>
+                    <p class="text-gray-400  text-base md:text-lg lg:text-base pt-3">Since this theme is MIT licensed, you can
+                        use it commercially!</p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="bg-slate-50">
+        <div class="container mx-auto w-full max-w-[1320px]  flex flex-row md:colums-2">
+            <div class="lg:basis-1/3  py-20 px-12 lg:px-0">
+                <p class="new text-3xl md:text-4xl lg:text-5xl pb-8">Enter a new age of web design</p>
+                <p class="text-gray-400 text-xl">This section is perfect for featuring some information about your
+                    application, why it was built, the problem it solves, or anything else! There's plenty of space for text
+                    here, so don't worry about writing too much.</p>
+            </div>
+            <div class="lg:basis-2/3 ">
+    
+            </div>
+    
+        </div>
+    </section>
+    <section class="bg-black/[.5] py-36">
+
+        <div class="container mx-auto w-full max-w-[1320px]  flex flex-row md:colums-2 ">
+            <div class="lg:basis-2/5  py-32 px-12 lg:px-0">
+                <p class="new text-3xl md:text-4xl text-4xl md:text-5xl lg:text-7xl pb-8 text-white">Stop waiting. <br>
+                    Start building.
+                </p>
+                <button>
+                    <h4 class="text-white  p-5 rounded-3xl border-2 border-white hover:text-black hover:bg-white transition-all">Download for free</h4>
+                </button>
+            </div>
+            <div class="lg:basis-3/5 ">
+
+            </div>
+        </div>
+
+    </section>
+    <section class="flex flex-row bg-gradient-to-r from-indigo-500 to-purple-700 justify-center content-center">
+        <div class="py-20 flex flex-col justify-center content-center">
+            <p class="text1 text-4xl text-center mb-1 text1 text-white"> Get the app now!</p>
+            <div class="lg:flex gap-x-4  my-6">
+                <img class="w-44 mx-auto py-2" src="./images/google-play-badge.svg" alt="">
+                <img class="w-44 mx-auto py-2" src="./images/app-store-badge.svg" alt="">
+            </div>
+        
+        </div>
+    </section>
+    <section class="flex flex-row bg-black justify-center content-center">
+        <div class="py-20 flex flex-col justify-center content-center">
+            <p class="page text-sm text-center mb-2  text-slate-400"> © Your Website 2023. All Rights Reserved.</p>
+            <p class="page text-sm text-center mb-2  text-slate-400"> Privacy · Terms · FAQ.</p>
+        
+        </div>
+    </section>
+ 
+
+
+
+</body>
+
+</html>
+

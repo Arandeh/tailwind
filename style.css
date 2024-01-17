@@ -1,0 +1,72 @@
+@font-face {
+    font-family: kanit;
+    src: url(./assets/font/kanit.woff2);
+    
+  }
+  @font-face {
+    font-family: mulish;
+    src: url(./assets/font/Mulish-Medium.ttf);
+    font-style: normal;
+    
+  }
+
+  @font-face {
+    font-family: metropolis;
+    src: url(./assets/font/Metropolis-Regular.otf);
+    font-weight: 500;
+  }
+
+  /* @font-face {
+    font-family: metropolis;
+    src: url(./assets/font/Metropolis-Bold.otf);
+    font-weight: 700;
+  }
+  @font-face {
+    font-family: metropolis;
+    src: url(./assets/font/Metropolis-Medium.otf);  
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: metropolis;
+    src: url(./assets/font/Metropolis-RegularItalic.otf);
+    font-weight: 400;
+    
+  }
+  @font-face {
+    font-family: metropolis;
+    src: url(./assets/font/Metropolis-SemiBold.otf);
+    font-weight: 600; 
+  } */
+  @font-face{
+    font-family: Newsreader;
+    src: url(./assets/font/Newsreader_9pt-Bold.ttf);
+  }
+
+
+  html{
+    font-size: 14px;
+  }
+
+  body{
+    font-family: "metropolis";
+  }
+
+  h1 , .text1{
+    font-family: "kanit";
+  }
+
+  h2 , .new{
+    font-family: "Newsreader";
+    
+  }
+  .page {
+    font-family: "mulish" ;    
+  }
+
+
+  @media (max-width: 450px) {
+    html{
+      font-size: 12px;
+    }
+  }
